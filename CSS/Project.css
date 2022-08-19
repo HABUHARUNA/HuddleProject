@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 500vh;
+    font-family: sans-serif;
+    font-weight: 400, 700;
+}
+h1{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    background-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    height: 67 0px;
+    background-color: rgb(235, 247, 244);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 80% 10%;
+    padding: 10px 30px 0px 30px;
+    
+    
+}
+.grid a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+
+.container img {
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 70px;
+    padding-left: 10%;
+}
+.collections .text{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.collections p{
+    margin-top: 20px;
+}
+.collections #link {
+    margin-top: 30px;
+    
+}
+.collections #link a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 40px;
+    text-align: center;
+    padding: 15px 20px;
+}
+.image{
+    margin-left: 100px;
+}
+.image img{
+    width: 550px;
+    height: 400px;
+}
+
+.grid-container{
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+
+}
+.grid-container .first-grid-container{
+    display: flex;
+}
+.grid-container .first-grid-container img{
+    width: 400px;
+    height: 400px;
+}
+.grid-container .first-grid-container .text1{
+    margin: 150px 0 0 100px;
+}
+.grid-container .first-grid-container .text1 p{
+    margin-top: 20px;
+}
+.grid-container2{
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+  
+
+}
+.grid-container2 .second-grid-container{
+    display: flex;
+}
+.grid-container2 .second-grid-container img{
+    width: 400px;
+    height: 400px;
+}
+.grid-container2 .second-grid-container .text1{
+    margin: 150px 0 0 100px;
+}
+.grid-container2 .second-grid-container .text1 p{
+    margin-top: 20px;
+}
+.grid-container3{
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+
+}
+.grid-container3 .third-grid-container{
+    display: flex;
+}
+.grid-container3 .third-grid-container img{
+    width: 400px;
+    height: 400px;
+}
+.grid-container3 .third-grid-container .text1{
+    margin: 150px 0 0 100px;
+}
+.grid-container3 .third-grid-container .text1 p{
+    margin-top: 20px;
+}
+.container2{
+    display: grid;
+    
+    grid-auto-rows: minmax(200px, auto);
+    
+   
+}
+.container div{
+   padding: 1em;
+}
+.first-container{
+    background: white;
+    align-self: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 300px;
+    
+}
+.first-container .message{
+    padding-bottom: 20px;
+}
+.container2 .first-container #get{
+    margin: 25px 200px;
+  
+}
+.container2 .first-container #get a{
+    text-decoration: none;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    border-radius: 40px;
+    padding: 15px 50px;
+}
+
+.second-container .main-footer{
+    background: rgb(31, 31, 58);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10em;
+    padding: 50px;
+    margin-top: 200px;
+
+    
+   
+}
+.second-container .main-footer .footer-message1 .footer-message1-first{
+    margin: 40px;
+    font-size: 13px;
+}
+.second-container .main-footer .footer-message1 .footer-message1-first #huddle-image{
+    padding-bottom: 50px;
+}
+.second-container .main-footer .footer-message1 .footer-message1-first li{
+    padding: 10px;
+    list-style: none;
+}
+.second-container .main-footer .footer-message2 .footer-message2-first{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+    font-size: 13px;
+    padding-top: 100px;
+}
+.second-container .main-footer .footer-message2 .footer-message2-first li{
+    list-style: none;
+}
+.second-container .main-footer .footer-message3 .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.second-container .main-footer .footer-message3 .social-icon{
+    list-style: none;
+}
+.second-container .main-footer .footer-message3 .social-icon a{
+    font-size: 2em;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.second-container .main-footer .footer-message3 .social-icon a:hover {
+    transform: translate(-10px);
+    color:  hsl(322, 100%, 66%);
+}
+.second-container .main-footer .footer-message3 .outro {
+    display: flex;
+    justify-self: end;
+    align-self: end;
+    color: white;
+    padding-top: 200px;
+    font-size: 7px;
+}
+.hope{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    
+}
+.hope #lorem{
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.footer-message2 .footer-message2-first a{
+    text-decoration: none;
+    color: white;
+}
+.hope #no{
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.hope #exam{
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.filter-white{
+    filter:  brightness(0) invert(1);
+}
